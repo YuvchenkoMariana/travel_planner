@@ -1,0 +1,16 @@
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.1.0
+
+# HTTP Client
+requests>=2.28.0
+httpx>=0.25.0
+
+# FastAPI
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Optional: Code Quality
+# black>=23.0.0
+# flake8>=6.0.0
