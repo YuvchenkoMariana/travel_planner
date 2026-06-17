@@ -146,18 +146,7 @@ This document clarifies ambiguities in the requirements and documents implementa
 
 ---
 
-## 9. Exception Handling: PlaceException vs ValueError
-
-**Ambiguity:** When to use custom `PlaceException` vs built-in `ValueError`?
-
-**Decision:** 
-- ✅ **`PlaceException`** - API-related failures (place not found in Art Institute API)
-- ✅ **`ValueError`** - Business logic violations (too many places, duplicate names, empty names)
-- **Rationale:** Separates external API issues from internal validation errors
-
----
-
-## 10. Project Creation with Places - Atomicity
+## 9. Project Creation with Places - Atomicity
 
 **Requirement (Line 24):** "Ability to create a project with places in one single request"
 
